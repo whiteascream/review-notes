@@ -1,0 +1,63 @@
+# ---- Office / 系统临时文件 ----
+~$*
+*.tmp
+*.bak
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 编辑器 / 笔记软件 ----
+.vscode/
+.idea/
+.obsidian/workspace*.json
+*.swp
+*.swo
+
+# ---- 大型二进制：图纸、模型、压缩包、安装包、视频 ----
+# 这些进 Git 会让 clone 变慢，且 GitHub 单文件上限 100MB
+*.sldprt
+*.sldasm
+*.slddrw
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.dwg
+*.dxf
+*.DXF
+*.step
+*.stp
+*.STEP
+*.igs
+*.iges
+*.3dm
+*.blend1
+*.zip
+*.7z
+*.rar
+*.iso
+*.exe
+*.msi
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# ---- 求解器产物（ANSYS / 仿真），笔记只留 inp 与截图 ----
+*.rst
+*.db
+*.dbb
+*.full
+*.esav
+*.mntr
+*.dat
+*.out
+
+# ---- 凭据 / 隐私 / 工具 ----
+.gh-config/
+tools/
+*.token
+*.secret
+.env
+*.pem
+id_rsa*
