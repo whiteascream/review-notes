@@ -108,7 +108,7 @@
 | [exercises/](exercises/) | 习题册、答案索引、错题本 | 4 |
 | [exam/](exam/) | 真题回忆、复习重点、划重点纪要 | 4 |
 | [summary/](summary/) | 考前速览 | 0 |
-| [assets/](assets/) | 图与截图、重点页照片、课件 | 32 |
+| [assets/](assets/) | 图与截图、重点页照片、课件 | 33 |
 
 ## 资料清单
 
