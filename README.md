@@ -26,6 +26,7 @@ NN-学科/
 ├─ exercises/     # 习题、典型题、错题本
 ├─ exam/          # 真题、模拟题、老师划的重点
 ├─ summary/       # 考前速览、一页纸总结
+├─ labs/          # 实验报告与整理（有实验课的学科才建）
 └─ assets/        # 本学科用到的图、截图
 ```
 
@@ -36,6 +37,7 @@ NN-学科/
 | `exercises/` | 做过的题、错题本 CSV | 只存不做的题海 |
 | `exam/` | 真题、模拟卷、考点清单 | 他人付费资料、扫描版教材 |
 | `summary/` | 一页纸、考前 3 天清单 | 长文 |
+| `labs/` | 实验报告原件 + 数据/思考题整理 | 只有照片没有整理 |
 | `assets/` | 图、截图、手写拍照 | 视频、CAD 大文件 |
 
 ## 命名规范
@@ -73,7 +75,7 @@ git commit -m "机械设计: 第7章 齿轮传动"
 git push
 ```
 
-新开一门课：复制 `templates/subject-README.md` 到 `NN-新学科/README.md`，再建 6 个子目录（空目录加 `.gitkeep`）。
+新开一门课：复制 `templates/subject-README.md` 到 `NN-新学科/README.md`，再建 6 个子目录（空目录加 `.gitkeep`）。（有实验课的再建 `labs/`。）
 
 ## 模板
 
